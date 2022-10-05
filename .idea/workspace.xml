@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4e22caf-67cb-47bc-9bdf-ee7d22cf82d1" name="Changes" comment="First Commit to the local repo">
-      <change afterPath="$PROJECT_DIR$/src/test/java/mickeyMouseUniversity/CourseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/mickeyMouseUniversity/LecturerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/mickeyMouseUniversity/ModuleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/mickeyMouseUniversity/StudentTest.java" afterDir="false" />
+    <list default="true" id="d4e22caf-67cb-47bc-9bdf-ee7d22cf82d1" name="Changes" comment="addition of testingClasses">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mickeyMouseUniversity/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mickeyMouseUniversity/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mickeyMouseUniversity/CourseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mickeyMouseUniversity/CourseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mickeyMouseUniversity/ModuleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mickeyMouseUniversity/ModuleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mickeyMouseUniversity/StudentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mickeyMouseUniversity/StudentTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +35,32 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="CT417-Assignment_1" type="f1a62948:ProjectNode" />
                 <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="CT417-Assignment_1" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="compileClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="CT417-Assignment_1" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="compileClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
+                <item name="org.terasoluna.gfw:terasoluna-gfw-jodatime:5.7.0.RELEASE" type="b3323d55:ExternalSystemViewDefaultContributor$DependencyExternalSystemNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="CT417-Assignment_1" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="runtimeClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="CT417-Assignment_1" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="runtimeClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
+                <item name="org.terasoluna.gfw:terasoluna-gfw-jodatime:5.7.0.RELEASE" type="b3323d55:ExternalSystemViewDefaultContributor$DependencyExternalSystemNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
@@ -120,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664995136746</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="addition of testingClasses">
+      <created>1664997655932</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1664997655932</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -137,6 +170,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit to the repo" />
     <MESSAGE value="First Commit to the local repo" />
-    <option name="LAST_COMMIT_MESSAGE" value="First Commit to the local repo" />
+    <MESSAGE value="addition of testingClasses" />
+    <option name="LAST_COMMIT_MESSAGE" value="addition of testingClasses" />
   </component>
 </project>

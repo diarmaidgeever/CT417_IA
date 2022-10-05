@@ -3,12 +3,15 @@ package mickeyMouseUniversity;
 import org.joda.time.*;
 //import collegeStructure.Module;
 
+import java.sql.Date;
 import java.util.ArrayList;
 
 public class Student {
     public static int iDCounter;
     private String name;
     private int age;
+
+    private DateTime altdob; //for when you're just not sure
     private LocalDate dob;
     private String iD;
     private String username;
