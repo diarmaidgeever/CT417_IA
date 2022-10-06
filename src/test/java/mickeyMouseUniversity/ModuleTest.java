@@ -47,7 +47,7 @@ class ModuleTest {
     void addStudent() {
         m1.addStudent(s1);
         ArrayList<Student> students = m1.getStudents();
-        assertEquals(l1,students.get(0));
+        assertEquals(s1,students.get(0));
     }
 
     @Test
@@ -154,14 +154,14 @@ class ModuleTest {
     @Test
     void getEndDate() {
         LocalDate endDate = new LocalDate(2,9,1);
-        m1.setStartDate(endDate);
+        m1.setEndDate(endDate);
         assertEquals(endDate, m1.getEndDate());
     }
 
     @Test
     void setEndDate() {
         LocalDate endDate = new LocalDate(2,9,1);
-        m1.setStartDate(endDate);
+        m1.setEndDate(endDate);
         assertEquals(endDate, m1.getEndDate());
     }
 

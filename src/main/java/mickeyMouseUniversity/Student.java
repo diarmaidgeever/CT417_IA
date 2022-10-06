@@ -19,6 +19,7 @@ public class Student {
     private ArrayList<Module> modules;
 
     public Student(String name, LocalDate dob, Course course) {
+        //System.out.println("This is the constructor");
         this.name = name;
         this.dob = dob;
         this.course = course;
@@ -42,6 +43,7 @@ public class Student {
 
     public String getID() {
         String genID;
+        System.out.println(iDCounter);
         genID = "S" + iDCounter;
         iDCounter++;
         return genID;

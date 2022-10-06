@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4e22caf-67cb-47bc-9bdf-ee7d22cf82d1" name="Changes" comment="addition of testingClasses">
+    <list default="true" id="d4e22caf-67cb-47bc-9bdf-ee7d22cf82d1" name="Changes" comment="implementation of junit tests for Course, Module, Student">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/mickeyMouseUniversity/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mickeyMouseUniversity/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/mickeyMouseUniversity/CourseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mickeyMouseUniversity/CourseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/mickeyMouseUniversity/ModuleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mickeyMouseUniversity/ModuleTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/mickeyMouseUniversity/StudentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mickeyMouseUniversity/StudentTest.java" afterDir="false" />
     </list>
@@ -153,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664997655932</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="implementation of junit tests for Course, Module, Student">
+      <created>1665006117849</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1665006117849</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -171,6 +177,7 @@
     <MESSAGE value="First Commit to the repo" />
     <MESSAGE value="First Commit to the local repo" />
     <MESSAGE value="addition of testingClasses" />
-    <option name="LAST_COMMIT_MESSAGE" value="addition of testingClasses" />
+    <MESSAGE value="implementation of junit tests for Course, Module, Student" />
+    <option name="LAST_COMMIT_MESSAGE" value="implementation of junit tests for Course, Module, Student" />
   </component>
 </project>
