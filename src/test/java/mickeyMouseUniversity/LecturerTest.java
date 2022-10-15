@@ -27,13 +27,13 @@ class LecturerTest {
     }
 
     @Test
-    void getUsername() {
-        assertEquals("JohnCunniffe21",l1.getUsername());
+    void genUsername() {
+        assertEquals("JohnCunniffe21",l1.genUsername());
     }
 
     @Test
-    void getID() {
-        assertEquals("S"+ Student.iDCounter,l1.getID());
+    void genID() {
+        assertEquals("L"+ Lecturer.iDCounter,l1.genID());
     }
 
 

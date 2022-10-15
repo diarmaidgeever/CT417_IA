@@ -77,7 +77,7 @@ class ModuleTest {
 
     @Test
     void getModuleName() {
-        assertEquals("CT417",m1.getModuleName());
+        assertEquals("Software Engineering III",m1.getModuleName());
     }
 
     @Test

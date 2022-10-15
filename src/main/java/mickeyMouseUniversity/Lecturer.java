@@ -20,7 +20,8 @@ public class Lecturer {
         DateTime currentDate = new DateTime(); //when a DateTime object is created with no value, it takes the current date as a value
         age = currentDate.getYear() - dob.getYear();//current year - year of birth
         username = genUsername();
-        iD= "L" + getID();
+        iD= genID();
+        modules = new ArrayList<Module>();
         System.out.println(iD);
     }
 
@@ -33,9 +34,9 @@ public class Lecturer {
 
     }
 
-    public int getID() {
-        int genID;
-        genID = iDCounter;
+    public String genID() {
+        String genID;
+        genID = "L" + iDCounter ;
         iDCounter++;
         return genID;
     }
