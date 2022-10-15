@@ -21,8 +21,9 @@ class CourseTest {
         s1 = new Student("John Cunniffe", new org.joda.time.LocalDate(2001, 3, 9), c1);
         s2 = new Student("Mary Towey", new org.joda.time.LocalDate(2001, 3, 9),c1);
 
-        m1 = new Module("CT417",c1);
-        m2 = new Module("CT418",c1);
+        m1 = new Module("Software Engineering III","CT417",c1);
+        m2 = new Module("Database Systems I","CT230",c1);
+
 
     }
     @Test

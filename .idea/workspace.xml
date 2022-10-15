@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4e22caf-67cb-47bc-9bdf-ee7d22cf82d1" name="Changes" comment="Refactoring of junit Tests to make them pass">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="d4e22caf-67cb-47bc-9bdf-ee7d22cf82d1" name="Changes" comment="Adding of war plugin">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mickeyMouseUniversity/Lecturer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mickeyMouseUniversity/Lecturer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mickeyMouseUniversity/Module.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mickeyMouseUniversity/Module.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mickeyMouseUniversity/CourseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mickeyMouseUniversity/CourseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mickeyMouseUniversity/LecturerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mickeyMouseUniversity/LecturerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mickeyMouseUniversity/ModuleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mickeyMouseUniversity/ModuleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mickeyMouseUniversity/StudentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mickeyMouseUniversity/StudentTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665058496285</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Adding of war plugin">
+      <created>1665063060227</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1665063060227</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -185,6 +196,7 @@
     <MESSAGE value="addition of testingClasses" />
     <MESSAGE value="implementation of junit tests for Course, Module, Student" />
     <MESSAGE value="Refactoring of junit Tests to make them pass" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactoring of junit Tests to make them pass" />
+    <MESSAGE value="Adding of war plugin" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding of war plugin" />
   </component>
 </project>

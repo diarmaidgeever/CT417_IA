@@ -2,6 +2,8 @@ package mickeyMouseUniversity;
 
 import org.joda.time.*;
 
+import java.util.ArrayList;
+
 public class Lecturer {
     public static int iDCounter;
     private String name;
@@ -10,17 +12,19 @@ public class Lecturer {
     private String iD;
     private String username;
 
+    private ArrayList<Module> modules;
+
     public Lecturer(String name, LocalDate dob) {
         this.name = name;
         this.dob = dob;
         DateTime currentDate = new DateTime(); //when a DateTime object is created with no value, it takes the current date as a value
         age = currentDate.getYear() - dob.getYear();//current year - year of birth
-        username = getUsername();
+        username = genUsername();
         iD= "L" + getID();
         System.out.println(iD);
     }
 
-    public String getUsername() {
+    public String genUsername() {
         String genUsername;
         genUsername = name.replaceAll("\\s", "");
         genUsername = genUsername + age;
@@ -36,18 +40,15 @@ public class Lecturer {
         return genID;
     }
 
-
-    public static void setiDCounter(int iDCounter) {
-        Lecturer.iDCounter = iDCounter;
+    public void addModule(Module module){
+        modules.add(module);
     }
+
 
     public void setName(String name) {
         this.name = name;
     }
 
-    public void setAge(int age) {
-        this.age = age;
-    }
 
     public void setDob(LocalDate dob) {
         this.dob = dob;
@@ -60,4 +61,26 @@ public class Lecturer {
     public void setUsername(String username) {
         this.username = username;
     }
+
+    public String getUsername() {
+        return username;
+    }
+
+    public LocalDate getDob() {
+        return dob;
+    }
+
+    public ArrayList<Module> getModules() {
+        return modules;
+    }
+
+    public void setModules(ArrayList<Module> modules ) {
+        this.modules = modules;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+
 }

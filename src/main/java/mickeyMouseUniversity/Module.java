@@ -10,9 +10,11 @@ public class Module {
     private LocalDate startDate;
     private LocalDate endDate;
     private String moduleName;
+    private String moduleCode;
 
-    public Module(String moduleName, Course course) {
+    public Module(String moduleName, String moduleCode, Course course) {
         this.moduleName = moduleName;
+        this.moduleName=moduleName;
         students = new ArrayList<Student>();
         lecturers = new ArrayList<Lecturer>();
         courses = new ArrayList<Course>();
@@ -90,6 +92,14 @@ public class Module {
 
     public void setEndDate(LocalDate endDate) {
         this.endDate = endDate;
+    }
+
+    public void setModuleCode(String moduleCode) {
+        this.moduleCode = moduleCode;
+    }
+
+    public String getModuleCode() {
+        return moduleCode;
     }
 
     public String listStudents() {

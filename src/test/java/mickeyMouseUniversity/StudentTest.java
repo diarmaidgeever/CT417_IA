@@ -25,8 +25,8 @@ class StudentTest {
         //I'm too tired to think about how to fix it now, but you had better change it ya flute!!!
         //s2 = new Student("Mary Towey", new org.joda.time.LocalDate(2001, 3, 9),c1);
 
-        m1 = new Module("CT417",c1);
-        m2 = new Module("CT418",c1);
+        m1 = new Module("Software Engineering III","CT417",c1);
+        m2 = new Module("DataBase Systems I","CT230",c1);
 
     }
 
